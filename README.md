@@ -1,0 +1,3 @@
+# Dart Index Out of Bounds Error
+
+This repository demonstrates a common error in Dart programming: an index out of bounds exception when accessing elements in a list.  The `bug.dart` file shows the problematic code, which attempts to access a list element using an index obtained from `indexOf`. If the element isn't found, `indexOf` returns -1, causing an error when attempting to access `list[-1]`.  The `bugSolution.dart` file provides a corrected version with proper error handling.
